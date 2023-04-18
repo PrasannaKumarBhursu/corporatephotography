@@ -1,0 +1,279 @@
+.top-line {
+  border: 1px solid #da8590;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.invite-heading {
+  font-family: "Rubik";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 29px;
+  line-height: 34px;
+  text-align: center;
+  margin-bottom: 0px;
+  color: #79dae8;
+}
+
+.outer-invite-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.inner-invite-container {
+  width: 80%;
+}
+
+.invite-input-element {
+  border: none;
+  border-top: 0.25px solid #888080;
+  border-bottom: 0.25px solid #888080;
+  border-radius: 0px;
+  margin-top: 5px;
+  outline: none;
+}
+
+.innvite-button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.invite-button-white {
+  background: #ffffff;
+  box-shadow: 0px 4px 8px 1px rgba(0, 0, 0, 0.28);
+  border-radius: 0px;
+  width: 45%;
+  outline: none;
+  border-width: 0px;
+  padding: 10px;
+}
+
+.invite-button-blue {
+  background: #007d99;
+  box-shadow: 0px 4px 8px 1px rgba(0, 0, 0, 0.28);
+  border-radius: 0px;
+  border-radius: 0px;
+  width: 45%;
+  outline: none;
+  border-width: 0px;
+  padding: 10px;
+}
+
+.need-heading {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+
+  color: #61bbc8;
+}
+
+.need-para {
+  font-family: "RocknRoll One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  text-align: center;
+
+  color: #4f5f66;
+}
+
+.continue-outer-cont {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.continue-inner-cont {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.continue-heading {
+  font-family: "Advent Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 29px;
+  line-height: 35px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.continue-card {
+  background-color: #ffffff;
+  border-radius: 23px;
+  width: 45%;
+  margin-bottom: 20px;
+}
+
+.continue-para {
+  font-family: "Advent Pro";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 23px;
+  line-height: 28px;
+  color: #000000;
+  margin-bottom: 70px;
+}
+
+.continue-btn {
+  background: #007d99;
+  border-radius: 0px 0px 23px 23px;
+  font-family: "Advent Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 29px;
+  line-height: 35px;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border-width: 0px;
+
+  color: #ffffff;
+}
+
+@media screen and (max-width: 800px) {
+  .continue-inner-cont {
+    flex-direction: column;
+  }
+  .continue-card {
+    width: 100%;
+  }
+}
+
+.book-container {
+  background: linear-gradient(180deg, #007d99 0%, #6e9397 100%);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.book-head {
+  font-family: "Ropa Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 51px;
+
+  color: #ffffff;
+}
+
+.book-btn {
+  background: #007d99;
+  border-radius: 30.5px;
+  font-family: "Rosario";
+  outline: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  padding: 10px;
+  border-color: white;
+  border-style: solid;
+  border-width: 3px 8px;
+  color: #ffffff;
+  width: 40%;
+}
+
+@media screen and (min-width: 980px) {
+  .book-btn {
+    width: 27%;
+  }
+}
+
+.footer {
+  position: relative;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  background-color: #676767;
+  overflow: hidden;
+}
+
+.right-footer-ellipse {
+  position: absolute;
+  left: 80%;
+  right: -6.46%;
+  top: -37.72%;
+  bottom: 54.17%;
+  border-radius: 100%;
+
+  background: #e0e0e0;
+}
+
+.left-footer-ellipse {
+  position: absolute;
+  left: -4.44%;
+  right: 92.78%;
+  top: 81.36%;
+  bottom: -18.2%;
+  border-radius: 100%;
+
+  background: #e0e0e0;
+}
+
+.footer-email {
+  background-color: white;
+  border-radius: 25px;
+  display: flex;
+  padding: 5px;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.footer-rel-email{
+    border-width: 0px;
+    outline: none;
+}
+
+.subscribe {
+  background-color:  #4b4b4b;
+  border-radius: 15px;
+  padding: 5px;
+  padding-left: 12px;
+  padding-right:12px ;
+  height: 100%;
+  font-family: "Rubik";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 25px;
+  /* identical to box height */
+color:black ;
+  
+}
+
+.small-footer{
+    font-family: 'Rubik';
+    position: relative;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #FFFFFF;
+    ;
+}
+
+.contancts-footer{
+ display: flex;
+ align-items: center;
+}
+.emoji-footer{
+    margin-right: 5px;
+}
+
+.small-text{
+    color: #FFFFFF;
+    position: relative;
+}

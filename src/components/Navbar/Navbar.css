@@ -1,0 +1,33 @@
+.navbar-class {
+  background-color: #585252;
+}
+.logo {
+  width: 235px;
+  height: 113px;
+  left: 20px;
+  top: 29px;
+}
+
+.nav-items-class {
+  font-family: "Rubik";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 17px;
+  color: #ffffff;
+}
+
+.login-button {
+  width: 268px;
+  height: 49px;
+  left: 1125px;
+  font-family: "Rubik";
+  font-style: italic;
+  top: 61px;
+  color: #ffffff;
+  background-color: #89b0a6;
+  border-radius: 30px;
+  border-width: 0px;
+}
+
+
+

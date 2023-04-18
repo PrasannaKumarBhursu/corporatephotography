@@ -1,0 +1,106 @@
+.slider {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+.slide,
+.slide img {
+  width: 100%;
+  height: 350px;
+}
+
+.slide {
+  opacity: 0.5;
+  transform: scale(0.5);
+  transition: 0.5s;
+}
+
+.slide-active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.arrow {
+  font-size: 30px;
+  padding: 5px 15px;
+  border-radius: 100%;
+  box-shadow: 0 0 5px 3px #ccc;
+  display: flex;
+  width: 50px;
+  cursor: pointer;
+  position: absolute;
+  z-index: 100;
+  top: 200px;
+}
+
+.arrow-right {
+  right: 30%;
+}
+
+.arrow-left {
+  left: 30%;
+}
+
+.shadow-slider {
+  background-color: #c4c4c4;
+  border: 2px solid #000000;
+  filter: blur(11px);
+  border-radius: 30px;
+}
+
+@media screen and (max-width: 1095px) {
+  .arrow {
+    font-size: 30px;
+    padding: 2px 6px;
+    border-radius: 100%;
+    box-shadow: 0 0 5px 3px #ccc;
+    display: flex;
+    width: 30px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 100;
+    top: 40%;
+  }
+  .arrow-right {
+    right: 30%;
+  }
+
+  .arrow-left {
+    left: 30%;
+  }
+
+  .slider {
+    width: 100%;
+    height: 200px;
+  }
+
+  .slide,
+  .slide img {
+    width: 100%;
+    height: 200px;
+  }
+}
+
+.slide-head {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 56px;
+  text-align: center;
+
+  color: #68a7ad;
+}
+
+.slide-para {
+  font-family: "RocknRoll One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  text-align: center;
+
+  color: #4f5f66;
+}
